@@ -1,0 +1,49 @@
+.main-nav {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main-nav .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-nav .nav li {
+    float: left;
+}
+
+.main-nav .nav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-nav .nav li a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
+.main-nav .nav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.menu-trigger {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu-trigger:hover {
+    background-color: #45a049;
+}
